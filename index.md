@@ -1,4 +1,9 @@
+---
+layout：default
+---
+
 # Instructions
+
 **Below are simple instructions of my projects on GitHub**
 
 ## (1) Robotics-Naigation-Deep-Reinforcement-Learning
@@ -12,11 +17,11 @@ Currently, I am trying to apply deep-Q-network and DDPG algorithms on different 
 
 -  **basic** : Include the elementary parts of a 'SUMO' map 
 
-     **IMPORTANT**: SUMO is the short of "Simulation of Urban Mobility". It is a software which help you creat any kinds of traffic simulation scenes quickly. 
+      **IMPORTANT**: SUMO is the short of "Simulation of Urban Mobility". It is a software which help you creat any kinds of traffic simulation scenes quickly. 
 
-     **IMPORTANT**: You'd better read the tutorials of SUMO first in order to understand the content below. Tutorials are here: [SUMO TUTORIALS](http://sumo.dlr.de/wiki/Tutorials).Apart from that, the blog is great for your quick scan on SUMO's utility.
+      **IMPORTANT**: You'd better read the tutorials of SUMO first in order to understand the content below. Tutorials are here: [SUMO TUTORIALS](http://sumo.dlr.de/wiki/Tutorials).Apart from that, the blog is great for your quick scan on SUMO's utility.
 
-     There are five parts below:
+      There are five parts below:
    * [car.rou.xml](https://github.com/lvlvlvlvlv/Robotics-Navigation-Deep-Reinforcement-Learning/blob/master/basic/car.rou.xml) : Defined by user. You have to define the car flow on certain route or place in order to simulate the traffic scene.
    * [edges.edg.xml](https://github.com/lvlvlvlvlv/Robotics-Navigation-Deep-Reinforcement-Learning/blob/master/basic/edges.edg.xml) : Defined by user. To build a road net(see [road.net.xml](https://github.com/lvlvlvlvlv/Robotics-Navigation-Deep-Reinforcement-Learning/blob/master/basic/road.net.xml)) , you have to define the every edge as you wish.
    * [nodes.nod.xml](https://github.com/lvlvlvlvlv/Robotics-Navigation-Deep-Reinforcement-Learning/blob/master/basic/nodes.nod.xml) : Defined by user. To build a road net, you also have to define every node in order to connect edges together to be a map.
@@ -24,9 +29,9 @@ Currently, I am trying to apply deep-Q-network and DDPG algorithms on different 
    * [cfg.sumocfg.xml](https://github.com/lvlvlvlvlv/Robotics-Navigation-Deep-Reinforcement-Learning/blob/master/basic/cfg.sumocfg.xml) : Defined by user. This file contains simulation parameters mainly for the process of entire simulation.
 
 -  **crossroad** : Include the source code of DRL models, algorithms and environment settings.
-     **IMPORTANT** : 'Traci' is the short for "Traffic Control Interface". It is a library used for the communication with SUMO based on TCP protocol in order to modify and recieve values in simulation on-line. We apply Traci here since we need to interfere with simulation procedure('Environment' in reinforcement learing) to choose actions or stop the episode('action' and 'episode' are terms in reinforcement learing). To get familiar with Traci first, you'd better check [Traci Tutorials](http://www.sumo.dlr.de/userdoc/TraCI/Protocol.html)  
+      **IMPORTANT** : 'Traci' is the short for "Traffic Control Interface". It is a library used for the communication with SUMO based on TCP protocol in order to modify and recieve values in simulation on-line. We apply Traci here since we need to interfere with simulation procedure('Environment' in reinforcement learing) to choose actions or stop the episode('action' and 'episode' are terms in reinforcement learing). To get familiar with Traci first, you'd better check [Traci Tutorials](http://www.sumo.dlr.de/userdoc/TraCI/Protocol.html)  
 
-     There are four parts now:  
+      There are four parts now:  
    + Traffic map
      - [crossroad.net.xml](https://github.com/lvlvlvlvlv/Robotics-Navigation-Deep-Reinforcement-Learning/blob/master/crossroad/crossroad.net.xml) : a complete road net
      - [crossroad.rou.xml](https://github.com/lvlvlvlvlv/Robotics-Navigation-Deep-Reinforcement-Learning/blob/master/crossroad/crossroad.rou.xml) : a convenient way to define the motion trace of cars. See [SUMO TUTORIALS](http://sumo.dlr.de/wiki/Tutorials)
