@@ -135,7 +135,7 @@ For self-driving vehicle, it's very important to recognize traffic lanes precise
 
 ### 	what is in this project?
 
-![performance](https://www.flickr.com/photos/158503507@N08/)
+![performance](http://farm5.staticflickr.com/4686/38681320945_8c10dfd986_b.jpg)
 
 + features:
   + [trainFeaturesMat-sample.txt](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/features/trainFeaturesMat-sample.txt)
@@ -195,4 +195,3 @@ This project derived from my undergraduate period. I started it since I had seen
 + [segment_test.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/segment_test.py)
 + [supercore.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/supercore.py)
 + [temp.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/temp.py)
-
