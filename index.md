@@ -2,11 +2,13 @@
 layout: default
 ---
 
-# Welcome!
+# Welcome to Xubo's Projects!
 
-Here I listed basic instructions of my research projects which also are in GitHub.
+Here I listed basic instructions of my research projects deposited at GitHub.
 
 ## (1) Robotics-Navigation-Deep-Reinforcement-Learning
+
+[See it at GitHub](https://github.com/lvlvlvlvlv/Robotics-Navigation-Deep-Reinforcement-Learning)
 
 ### why do I start this project?
 
@@ -51,6 +53,8 @@ Currently, I am trying to apply deep-Q-network and DDPG algorithms on different 
       - [Main.py](https://github.com/lvlvlvlvlv/Robotics-Navigation-Deep-Reinforcement-Learning/blob/master/crossroad/main.py) : Implemented Q-learning algorithm embedded in whole training procedure. You only need to execute this file to start the training.  
 
 ## (2) Reinforcement Learning Framework
+
+[See it at GitHub](https://github.com/lvlvlvlvlv/A-introduction-to-reinforcement-learning)
 
 ### why do I start this project?
 
@@ -123,12 +127,72 @@ The algorithms after 9th chapter will be added continuously by another version o
 
 ## (3) Traffic Lanes Detection and Classification
 
+[See it at GitHub](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification)
+
 ### 	why do I start this project?
 
+For self-driving vehicle, it's very important to recognize traffic lanes precisely. Therefore, I conducted this project for finding more compact and effective features of grayscale road map using C++, OpenCV and Random-Forest/SVM model to improve detection accuracy of traffic lanes. 
+
 ### 	what is in this project?
+
+![performance](https://www.flickr.com/photos/158503507@N08/)
+
++ features:
+  + [trainFeaturesMat-sample.txt](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/features/trainFeaturesMat-sample.txt)
+  + [trainLablesMat.txt](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/features/trainLablesMat.txt)
+  + [testFeaturesMat-sample.txt](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/features/testFeaturesMat-sample.txt)
+  + [testLabelsMat.txt](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/features/testLabelsMat.txt)
++ lib:
+  + [SWT.lib](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/lib/SWT.lib)
+  + [libadas.lib](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/lib/libadas.lib)
+  + [opencv_calib3d300d.dll](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/lib/opencv_calib3d300d.dll) ~ [opencv_videoio300d.dll](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/lib/opencv_videoio300d.dll)
+  + [vl.dll](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/lib/vl.dll)
++ model
+  + [SVM_Model.xml](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/model/SVM_Model.xml)
+  + [rtrees_1.xml](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/model/rtrees_1.xml)
+  + [rtrees_2.xml](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/model/rtrees_2.xml)
+
+
++ source
+  + [SWT.sln](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/source/SWT.sln)
+  + [SimpleIni.h](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/source/SimpleIni.h)
+  + [simpleiniext.h](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/source/simpleiniext.h)
+  + [main.cpp](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/source/main.cpp)
+  + [contours.h](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/source/contours.h)
+  + [Camera.h](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/source/Camera.h)
+  + [config.ini](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/source/config.ini)
+  + [standard_setting.ini](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/source/standard_setting.ini)
++ yml 
+  + [OV10635_20160518_1547_lane.yml](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/yml/OV10635_20160518_1547_lane.yml)
+  + [config_OV10635_20160518_1547.yml](https://github.com/lvlvlvlvlv/Traffic-Lanes-Detection-and-Classification/blob/master/yml/config_OV10635_20160518_1547.yml)
 
 ## (4) A Basic Fingerprint Recognition System
 
+[See it at GitHub](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System)
+
 ### 	why do I start this project?
 
+This project derived from my undergraduate period. I started it since I had seen a few fingerprint scanners for security check and I was curious to know the entire technical principles of fingerprint recognition system. So, I implemented all necessary image-processing algorithms without resorting to any external functions to form a basic demo using Python.
+
 ### 	what is in this project?
+
++ [Comparison.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Comparison.py)
++ [Freq.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Freq.py)
++ [GUI.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/GUI.py)
++ [Gabor.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Gabor.py)
++ [GetMinutia.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/GetMinutia.py)
++ [Match.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Match.py)
++ [Preprocess.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Preprocess.py)
++ [Preprocess.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Preprocess.py)
++ [Thin.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Thin.py)
++ [beginning.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/beginning.py)
++ [feature.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/feature.py)
++ [function.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/function.py)
++ [orientation.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/orientation.py)
++ [segment_first.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/segment_first.py)
++ [segment_second.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/segment_second.py)
++ [segment_final.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/segment_final.py)
++ [segment_test.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/segment_test.py)
++ [supercore.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/supercore.py)
++ [temp.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/temp.py)
+
