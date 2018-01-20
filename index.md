@@ -86,7 +86,7 @@ The algorithms after 9th chapter will be added continuously by another version o
 
   - [Racetrack.py](https://github.com/lvlvlvlvlv/A-introduction-to-reinforcement-learning/blob/master/chapter5/Racetrack.py)
 
-  **Note**:the Monte Carlo algorithms from chapter 5 are all implemented in the single file [Racetrack.py](https://github.com/lvlvlvlvlv/A-introduction-to-reinforcement-learning/blob/master/chapter5/Racetrack.py). Specifically in func: `def update_policy(episode):`  
+    **Note**:the Monte Carlo algorithms from chapter 5 are all implemented in the single file [Racetrack.py](https://github.com/lvlvlvlvlv/A-introduction-to-reinforcement-learning/blob/master/chapter5/Racetrack.py). Specifically in func:```def update_policy(episode)```
 
 - **chapter6** : Temporal-Difference Learning  
 
@@ -177,21 +177,47 @@ This project derived from my undergraduate period. I started it since I had seen
 ### 	what is in this project?
 
 + [Comparison.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Comparison.py)
+
+  The main function of this file is to compare two fingerprint pictures based on thinned image and valid feature points. Please refer to ```def Compare()```
+
 + [Freq.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Freq.py)
+
+  The main function of this file is to compute the corresponding frquency field image based on original fingerprint image and direction field image.
+
+  What is frequency? In the direction perpendicular to the ridge line, the image grayscale distribution is approximated to a sine wave. So we refer the frequency of this sine wave as the frequency of a series of ridge lines.
+
 + [GUI.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/GUI.py)
+
+  This is the final GUI of the fingerprint system software.
+
 + [Gabor.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Gabor.py)
+
 + [GetMinutia.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/GetMinutia.py)
+
 + [Match.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Match.py)
+
 + [Preprocess.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Preprocess.py)
+
 + [Preprocess.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Preprocess.py)
+
 + [Thin.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/Thin.py)
+
 + [beginning.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/beginning.py)
+
 + [feature.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/feature.py)
+
 + [function.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/function.py)
+
 + [orientation.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/orientation.py)
+
 + [segment_first.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/segment_first.py)
+
 + [segment_second.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/segment_second.py)
+
 + [segment_final.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/segment_final.py)
+
 + [segment_test.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/segment_test.py)
+
 + [supercore.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/supercore.py)
+
 + [temp.py](https://github.com/lvlvlvlvlv/Fingerprint-Recognition-System/blob/master/temp.py)
